@@ -70,10 +70,12 @@ An intelligent Telegram chatbot built with:
 
 ```bash
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/DandaLakshmiManiSankar/TelegramChatBot.git
 
-cd your-repo-name
+cd TelegramChatBot
 
 pip install -r requirements.txt
+
+python train_model.py
 
 python main.py

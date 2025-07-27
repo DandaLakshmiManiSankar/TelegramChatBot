@@ -39,15 +39,25 @@ An intelligent Telegram chatbot built with:
 ## 📁 Project Structure
 
 ├── .env # API keys
+
 ├── requirements.txt # Dependencies
+
 ├── Files/
-│ ├── dataset.json # Custom intents
-│ └── data.pickle # Processed NLP data
+
+  │Files/ ├── dataset.json # Custom intents
+  
+  │Files/ └── data.pickle # Processed NLP data
+
 ├── model.keras # Trained TensorFlow model
+
 ├── main.py # Telegram bot logic
+
 ├── gemini.py # Gemini integration
+
 ├── openrouter_ai.py # OpenRouter integration
+
 ├── trained_tf_model.py # Chatbot inference logic
+
 ├── functions.py # Quotes/Jokes APIs
 
 ---
@@ -59,7 +69,9 @@ An intelligent Telegram chatbot built with:
 ```bash
 
 git clone https://github.com/your-username/your-repo-name.git
+
 cd your-repo-name
 
 pip install -r requirements.txt
+
 python main.py

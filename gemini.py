@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()  # Load variables from .env file
-#GEMINI_API_KEY=AIzaSyB_BipWOonMKQPW7FWo2zHXpTYNLiO85cM
+GEMINI_API_KEY= Enter GeniniAPI Key without any quotes
 api_key1 = os.getenv("GEMINI_API_KEY")  # ✅ Fetch key by variable name
 
 genai.configure(api_key=api_key1)  # Configure Gemini with key

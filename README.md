@@ -62,8 +62,7 @@ An intelligent Telegram chatbot built with:
 
 ---
 
-## AUTHOR
-  Lakshmi Mani Sankar Danda
+## AUTHOR : Lakshmi Mani Sankar Danda
 
 ## ⚙️ Setup Instructions
 

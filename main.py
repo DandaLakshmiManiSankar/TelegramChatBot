@@ -2,7 +2,7 @@ from telebot import TeleBot
 from functions import Facts, APIS
 from trained_tf_model import chat_with_trained_model
 from dotenv import dotenv_values
-from gemini import genAI
+#from gemini import genAI
 from openrouter_ai import genAI
 
 import os

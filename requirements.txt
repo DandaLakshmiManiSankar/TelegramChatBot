@@ -6,4 +6,4 @@ google-generativeai
 tensorflow
 requests
 nltk
-punkt
+Telebot

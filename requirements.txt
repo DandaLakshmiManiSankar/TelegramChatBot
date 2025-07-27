@@ -1,0 +1,9 @@
+openai
+python-dotenv
+python-telegram-bot
+pyTelegramBotAPI
+google-generativeai
+tensorflow
+requests
+nltk
+punkt

@@ -11,17 +11,13 @@ from telebot import TeleBot
 
 # Load .env file
 load_dotenv()
-BOT_API="8491578357:AAEKkvZmXGnGrVZUwMmVCU971NWmr6H97vA"
+BOT_API="Enter Telegram Bot API_KEY"
 # Get the token from environment
-API = "8491578357:AAEKkvZmXGnGrVZUwMmVCU971NWmr6H97vA"
-#bot = telebot.TeleBot("8491578357:AAHPzzlb0QLE8L874acz_CO7syIrtfRzWCk")
-
+API = "Enter Telegram Bot API_KEY"
+#bot = telebot.TeleBot("Enter Telegram Bot API key")
 
 # Initialize bot
 BOT = TeleBot(API)
-
-
-
 def trainedModel(prompt: str):
     try :
         response, context = chat_with_trained_model(prompt)
